@@ -1,0 +1,7 @@
+- year: The calendar year in which the transaction occurred (2024, 2025, or 2026). Weighted more heavily toward recent years to simulate business growth.
+- month: The numeric month of the transaction (1 for January through 12 for December).
+- region: The macro-geographic sales territory (North America, Europe, Asia-Pacific, or Latin America).
+- country: The specific country associated with the transaction, hierarchically mapped to match the corresponding region (e.g., USA/Canada for North America; Germany/UK for Europe).
+- brand: The manufacturer or brand label of the sold item (Apex, Nova, Zenith, Vanguard, or Echo).
+- product_category: The department classification of the item (Electronics, Apparel, Home & Kitchen, or Fitness).
+- sales: The monetary sales value of the transaction.
